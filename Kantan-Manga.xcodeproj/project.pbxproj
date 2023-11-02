@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -2153,8 +2153,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-weak_library",
-					"/usr/lib/libc++.dylib",
 					"-l\"c++\"",
 					"-l\"sqlite3\"",
 					"-l\"stdc++\"",
@@ -2235,8 +2233,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-weak_library",
-					"/usr/lib/libc++.dylib",
 					"-l\"c++\"",
 					"-l\"sqlite3\"",
 					"-l\"stdc++\"",
